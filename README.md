@@ -1,1 +1,1 @@
-Cucumber tests for sparkta api
+Cucumber tests for sparkta gui
