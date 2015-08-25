@@ -9,7 +9,7 @@
   <artifactId>sparkta-test-gui</artifactId>
   <packaging>jar</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>sparkta-test-cucumber</name>
+  <name>sparkta-test-gui</name>
   
   <build>
 	<plugins>

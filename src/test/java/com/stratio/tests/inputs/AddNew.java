@@ -1,4 +1,4 @@
-package com.stratio.tests.fragments;
+package com.stratio.tests.inputs;
 
 import org.testng.annotations.Test;
 
@@ -7,14 +7,14 @@ import com.stratio.tests.utils.BaseTest;
 
 import cucumber.api.CucumberOptions;
 
-@CucumberOptions(features = { "src/test/resources/features/putFragments.feature" })
-public class Put extends BaseTest {
+@CucumberOptions(features = { "src/test/resources/features/addNewInputs.feature" })
+public class AddNew extends BaseTest {
 
-    public Put() {
+    public AddNew() {
     }
 
     @Test(enabled = true)
-    public void fragmentsTest() throws Exception {
+    public void addNewTest() throws Exception {
         new CucumberRunner(this.getClass()).runCukes();
     }
 }

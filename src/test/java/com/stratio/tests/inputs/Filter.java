@@ -1,4 +1,4 @@
-package com.stratio.tests.policies;
+package com.stratio.tests.inputs;
 
 import org.testng.annotations.Test;
 
@@ -7,14 +7,14 @@ import com.stratio.tests.utils.BaseTest;
 
 import cucumber.api.CucumberOptions;
 
-@CucumberOptions(features = { "src/test/resources/features/putPolicies.feature" })
-public class Put extends BaseTest {
+@CucumberOptions(features = { "src/test/resources/features/filterInputs.feature" })
+public class Filter extends BaseTest {
 
-    public Put() {
+    public Filter() {
     }
 
     @Test(enabled = true)
-    public void policiesTest() throws Exception {
+    public void filterTest() throws Exception {
         new CucumberRunner(this.getClass()).runCukes();
     }
 }
