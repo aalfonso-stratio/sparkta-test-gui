@@ -1,4 +1,5 @@
-@rest
-Feature: Test filtering inputs in Sparkta Swagger GUI
+@web
+Feature: Test filtering inputs in Sparkta GUI
+
 
 	

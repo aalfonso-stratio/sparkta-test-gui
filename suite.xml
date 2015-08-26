@@ -2,6 +2,7 @@
 thread-count="1">
 <test name="swagger gui">
 <packages>
+	<package name="com.stratio.tests.dashboard" />
 	<package name="com.stratio.tests.inputs" />
 </packages>
 </test>
