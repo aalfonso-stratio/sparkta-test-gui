@@ -1,7 +1,7 @@
 @web
-Feature: Test adding a new input in Sparkta GUI
+Feature: Test all expected elements are present in Sparkta GUI for inputs
 
-	Scenario: Check all expected elements are available
+	Scenario: Check all expected elements are available for inputs
 		Given I browse to '${SPARKTA_HOST}:${SPARKTA_PORT}'
 		Then I wait '2' seconds
 		Then '1' elements exists with 'css:st-menu-element[sref="dashboard.inputs"]'

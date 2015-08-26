@@ -4,6 +4,8 @@ thread-count="1">
 <packages>
 	<package name="com.stratio.tests.dashboard" />
 	<package name="com.stratio.tests.inputs" />
+	<package name="com.stratio.tests.outputs" />
+	<package name="com.stratio.tests.policies" />
 </packages>
 </test>
 </suite>
